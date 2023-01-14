@@ -1,0 +1,14 @@
+out
+dist
+node_modules
+.vscode-test/
+*.vsix
+
+node_modules
+app
+out
+.vscode-test/**
+npm-debug.log
+package-lock.json
+*.vsix
+icons.json
