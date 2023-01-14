@@ -36,10 +36,10 @@
 	"homepage": "https://github.com/ansaardollie/ansaars-icon-theme.git",
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
-		"compile": "tsc -p ./",
+		"compile": "tsc -p ./ && node ./out/extension.js",
 		"build": "tsc && node ./out/extension.js",
 		"package": "vsce package",
-		"watch": "tsc -watch -p ./",
+		"watch": "tsc && node ./out/extension.js && tsc -watch -p ./",
 		"pretest": "npm run compile && npm run lint",
 		"lint": "eslint src --ext ts",
 		"test": "node ./out/test/runTest.js"
