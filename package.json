@@ -24,6 +24,16 @@
 		]
 	},
 	"icon": "icon.png",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ansaardollie/ansaars-icon-theme.git"
+	},
+	"author": {
+		"email": "ansaard123@gmail.com",
+		"name": "Ansaar Dollie"
+	},
+	"license": "MIT",
+	"homepage": "https://github.com/ansaardollie/ansaars-icon-theme.git",
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./",

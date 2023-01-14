@@ -1,71 +1,61 @@
-# ansaars-icon-theme README
+<h1 align="center">
+  <br>
+    <img src="icon.png" alt="logo" width="200">
+  <br><br>
+  Ansaar's Icon Theme
+	<p>Clone of <a href="https://github.com/tal7aouy/vscode-icons">Icons</a> by <a href="https://github.com/tal7aouy">tal7aouy</a></p>
+  <br>
+  <br>
+</h1>
 
-This is the README for your extension "ansaars-icon-theme". After writing up a brief description, we recommend including the following sections.
+<h4 align="center">Get the Icons into your VS Code.</h4>
 
-## Features
+<p align="center">
+    <a href="https://marketplace.visualstudio.com/items?itemName=tal7aouy.icons"><img src="https://vsmarketplacebadges.dev/version-short/tal7aouy.icons.jpg?style=for-the-badge&colorA=252526&colorB=1B9AAA&label=VERSION" alt="Version"></a>&nbsp;
+    <a href="https://marketplace.visualstudio.com/items?itemName=tal7aouy.icons"><img src="https://vsmarketplacebadges.dev/rating-short/tal7aouy.icons.jpg?style=for-the-badge&colorA=252526&colorB=1B9AAA&label=Rating" alt="Rating"></a>&nbsp;
+    <a href="https://marketplace.visualstudio.com/items?itemName=tal7aouy.icons"><img src="https://vsmarketplacebadges.dev/installs-short/tal7aouy.icons.jpg?style=for-the-badge&colorA=252526&colorB=1B9AAA&label=Installs" alt="Installs"></a>&nbsp;
+    <a href="https://marketplace.visualstudio.com/items?itemName=tal7aouy.icons"><img src="https://vsmarketplacebadges.dev/downloads-short/tal7aouy.icons.jpg?style=for-the-badge&colorA=252526&colorB=1B9AAA&label=Downloads" alt="Downloads"></a>
+</p>
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+## File icons
 
-For example if there is an image subfolder under your extension project workspace:
+<img src="./images/fileIcons.png" alt="file icons">
 
-\!\[feature X\]\(images/feature-x.png\)
+### Folder icons
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+<img src="./images/folderIcons.png" alt="folder icons">
 
-## Requirements
+## Installation
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+1. Open the extensions sidebar on Visual Studio Code
+1. Search for **icons**
+1. Click Install
+1. Click Reload to reload your editor
+1. Select the Manage Cog (bottom left) > File Icon Theme ＞ **Icons**
+1. 🌟🌟🌟🌟🌟 Rate five-stars 😃
 
-## Extension Settings
+## How to use
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+After installation and activation, you should go in settings (`File` → `Preferences` on Windows, or `Code` → `Preferences` on OSX), choose `File Icon Theme`, and select `Icons`.
 
-For example:
+## Want more?
 
-This extension contributes the following settings:
+I can add more icons if you need, [open a **new** issue](https://github.com/tal7aouy/vscode-icons/issues) to ask which extension you want.
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+## Changelog
 
-## Known Issues
+[See full changelog here](https://github.com/tal7aouy/vscode-icons/blob/master/CHANGELOG.md)
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+## Icon sources
 
-## Release Notes
+- [Material Design Icons](https://materialdesignicons.com/)
+- official icons
 
-Users appreciate release notes as you update your extension.
+### Contributors
 
-### 1.0.0
+This project exists thanks to all the people who contribute.
 
-Initial release of ...
+<a href="https://github.com/tal7aouy/vscode-icons/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=tal7aouy/vscode-icons"/>
 
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+</a>
